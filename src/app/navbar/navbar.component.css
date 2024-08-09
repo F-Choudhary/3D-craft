@@ -1,0 +1,42 @@
+
+.header {
+    background: white;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    /* padding: 10px 20px; */
+    margin: 28px;
+}
+
+
+.logo a {
+    font-size: 38px;
+}
+.navbar{
+    display: contents   ;
+}
+nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav li a:hover {
+    background: #b6a2ec;
+    color: white;
+    border-radius: 20px;
+}
